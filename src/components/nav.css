@@ -1,0 +1,78 @@
+.logop{
+    column-gap: 10px;
+}
+
+.header{
+    background-color: white;
+    height: 10vh;
+    box-shadow: 0 5px 30px  rgba(0 22 84 / 10%);
+    padding: 15px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+
+}
+.header img{
+    width: 100px;
+    height: 70px;
+}
+.header a{
+    margin-left: 30px;
+    transition: 0.3s;
+    font-weight: 500;
+
+}
+.header a:hover{
+    color: #27ae60;
+}
+
+.toggle{
+    display: none;
+} 
+
+@media screen  and (max-width:786px){
+      .header{
+        padding: 0;
+      }
+      .header img{
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 8vh;
+      }
+      .button{
+        display: none;
+      }
+      .nav .flex{
+        display: none;
+      }
+      .toggle {
+        display: block;
+        margin-right: 30px;
+        
+      }
+      .tobutton
+      {
+        height: 8vh;
+        padding: 16px 16px;
+       
+      }
+    .small{
+        position: absolute;
+        top: 10vh;
+        left:0;
+        width: 100%;
+        background-color: #27ae60;
+        padding: 20px;
+    }
+    .header li a{
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .header a:hover{
+        color: #fff;
+    }
+
+
+}
